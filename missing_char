@@ -1,0 +1,6 @@
+def missing_char(word, n):
+  a = word[n]
+  return (word.replace(a,""))
+(missing_char("kitchen", 1))
+(missing_char("kitchen", 0))
+(missing_char("kitchen", 4))
