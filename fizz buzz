@@ -1,0 +1,15 @@
+a = "fizz"
+b = "buzz"
+c = "fizzbuz"
+liste = []
+
+for i in range(1,101):
+  if i%3==0:
+    liste.append(a)
+  elif i%5==0:
+    liste.append(b)
+  elif i%3==0 and i%5==0:
+    liste.append(c)
+  else:
+    liste.append(i)
+print(liste)     
